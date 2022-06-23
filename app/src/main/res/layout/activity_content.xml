@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/rogo" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/koccaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="50dp"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/coding_folder"
+            android:text="한국콘텐츠진흥원"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/dvBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="50dp"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/coding_folder"
+            android:text="[중견 기업]\n게임 개발자"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/soundBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="50dp"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/coding_folder"
+            android:text="[스타트업]\n게임 사운드"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
